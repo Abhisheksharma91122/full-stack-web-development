@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Login Form</h2>
+    <div>
+        <form>
+            <label for="email">
+                Email: <input name="email" id="email" type="email" placeholder="Enter your email">
+            </label>
+            <label for="password">
+                Password: <input type="password" name="password" id="password" placeholder="Enter your password">
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Registration Form</h2>
+        <form>
+            <label for="fullname">
+                Full Name: <input type="text" name="fullname" id="fullname" placeholder="Enter your full name">
+            </label>
+            <label for="reg-email">
+                Email: <input type="email" name="reg-email" id="reg-email" placeholder="Enter your email">
+            </label>
+            <label for="reg-password">
+                Password: <input type="password" name="reg-password" id="reg-password" placeholder="Enter your password">
+            </label>
+            <label for="confirm-password">
+                Confirm Password: <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm your password">
+            </label>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Learning form</h2>
+        <form >
+            <label for="Game">
+                Game: <select name="Game" id="Game">
+                    <option value="cricket">Cricket</option>
+                    <option value="football">Football</option>
+                </select>
+            </label>
+            <label for="file">
+                Upload file: <input type="file" name="file" id="file">
+                <input type="color" name="" id="">
+            </label>
+            <div>
+                <div>Age Selection</div>
+                <label for="below_18">
+                    Below 18: <input type="radio" name="age_group" id="below_18" value="below">
+                </label>
+                <label for="above_18">
+                    Above 18: <input type="radio" name="age_group" id="above_18" value="above">
+                </label>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
