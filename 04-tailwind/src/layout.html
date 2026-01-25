@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Responsive Layout Notes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white p-4 space-y-10">
+
+  <!-- HEADER -->
+  <h1 class="text-2xl font-bold text-center">
+    Tailwind CSS – Responsive Grid Layout Notes
+  </h1>
+
+  <!-- ============================= -->
+  <!-- Layout 1: 2 Column Grid -->
+  <!-- ============================= -->
+  <section>
+    <p class="mb-2 text-sm text-gray-400">
+      📱 Mobile: stacked | 🖥 sm+: 2 columns
+    </p>
+    <div class="grid sm:grid-cols-2 gap-4">
+      <div class="bg-orange-600 h-24 rounded-xl"></div>
+      <div class="bg-gray-600 h-24 rounded-xl"></div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- Layout 2: 4 Column Grid -->
+  <!-- ============================= -->
+  <section>
+    <p class="mb-2 text-sm text-gray-400">
+      📱 Mobile: stacked | 🖥 sm+: 4 columns
+    </p>
+    <div class="grid sm:grid-cols-4 gap-4">
+      <div class="bg-orange-600 h-24 rounded-xl"></div>
+      <div class="bg-gray-600 h-24 rounded-xl"></div>
+      <div class="bg-amber-600 h-24 rounded-xl"></div>
+      <div class="bg-purple-600 h-24 rounded-xl"></div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- Layout 3: Sidebar Layout -->
+  <!-- ============================= -->
+  <section>
+    <p class="mb-2 text-sm text-gray-400">
+      📱 Mobile: stacked | 🖥 sm+: sidebar (2) + content (10)
+    </p>
+    <div class="grid sm:grid-cols-12 gap-4">
+      <div class="bg-orange-600 h-24 rounded-xl sm:col-span-2"></div>
+      <div class="bg-gray-600 h-24 rounded-xl sm:col-span-10"></div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- Layout 4: Responsive Sidebar Layout -->
+  <!-- ============================= -->
+  <section>
+    <p class="mb-2 text-sm text-gray-400">
+      📱 Mobile: content only | 🖥 sm+: left sidebar | 💻 md+: two sidebars
+    </p>
+    <div class="grid sm:grid-cols-12 gap-4">
+      <!-- Left Sidebar -->
+      <div class="bg-orange-600 h-24 rounded-xl hidden sm:block sm:col-span-2"></div>
+
+      <!-- Main Content -->
+      <div class="bg-gray-600 h-24 rounded-xl sm:col-span-10 md:col-span-8"></div>
+
+      <!-- Right Sidebar -->
+      <div class="bg-purple-600 h-24 rounded-xl hidden md:block md:col-span-2"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER NOTE -->
+  <p class="text-center text-xs text-gray-500">
+    Resize the screen to see how layouts change 📱 → 🖥
+  </p>
+
+</body>
+</html>
