@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div class="bg-gray-900 flex items-center justify-center h-screen">
+      <div class="bg-gray-700 p-8 rounded-2xl shadow-2xl max-w-sm w-full">
+        <h2 class="text-3xl font-bold text-center text-white mb-6">Login</h2>
+        <form>
+          <div class="mb-4">
+            <label
+              class="block text-sm font-medium text-gray-300 mb-2"
+              for="email"
+            >
+              Email
+            </label>
+            <input
+              class="px-4 py-2 w-full bg-gray-600 border-gray-700 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email"
+            />
+          </div>
+          <div class="mb-6">
+            <label class="block text-sm font-medium text-gray-300 mb-2" for="password">
+              Password
+            </label>
+            <input
+              class="px-4 py-2 w-full bg-gray-600 border-gray-700 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm"
+              type="password"
+              placeholder="password"
+              id="password"
+            />
+          </div>
+          <button class="text-center bg-blue-600 w-full cursor-pointer rounded-md py-2 text-white hover:bg-blue-700 shadow-2xl" type="submit">
+            Login
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
