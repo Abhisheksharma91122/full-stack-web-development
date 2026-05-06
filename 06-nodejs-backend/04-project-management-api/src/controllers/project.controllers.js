@@ -6,7 +6,6 @@ import { ApiError } from "../utils/api-error.js";
 import { asyncHandler } from "../utils/async-handler.js";
 import mongoose from "mongoose";
 import { AvailableUserRoles, UserRolesEnum } from "../utils/constants.js";
-import { use } from "react";
 import { pipeline } from "nodemailer/lib/xoauth2/index.js";
 
 const getProjects = asyncHandler(async (req, res) => {
