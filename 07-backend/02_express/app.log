@@ -1,0 +1,5 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/products\",\"status\":\"201\",\"responseTime\":\"2.310\"}","timestamp":"2026-07-03T07:40:07.201Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/products\",\"status\":\"201\",\"responseTime\":\"0.245\"}","timestamp":"2026-07-03T07:40:19.121Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/products\",\"status\":\"201\",\"responseTime\":\"0.328\"}","timestamp":"2026-07-03T07:40:20.995Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Received request to add product: {\"name\":\"Pizza\",\"price\":844.52}","timestamp":"2026-07-03T07:41:08.930Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/products\",\"status\":\"201\",\"responseTime\":\"5.347\"}","timestamp":"2026-07-03T07:41:08.937Z"}
