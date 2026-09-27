@@ -1,0 +1,36 @@
+/* Main App container */
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} /* App content */
+.counter-app {
+  text-align: center;
+  padding: 40px;
+} /* Heading */
+.counter-app h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+} /* Counter value */
+.counter-app h2 {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+} /* Buttons */
+.counter-app button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #646cff;
+  color: white;
+  transition: 0.2s;
+}
+.counter-app button:hover {
+  background-color: #535bf2;
+}
+.counter-app button:active {
+  transform: scale(0.97);
+}
